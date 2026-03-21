@@ -24,7 +24,7 @@ const HeroSection = () => {
             {"// Hello, World! I'm"}
           </p>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight">
-            <span className="text-gradient">Your Name</span>
+            <span className="text-gradient">Utsav Kumar</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
             A passionate <span className="text-foreground font-medium">Full-Stack Developer</span> building 

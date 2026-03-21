@@ -31,7 +31,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
         <a href="#" className="font-mono text-lg font-bold text-primary">
-          {"<YourName />"}
+          {"<UtsavKumar />"}
         </a>
 
         {/* Desktop */}
