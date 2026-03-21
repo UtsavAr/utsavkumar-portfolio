@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import profileImg from "@/assets/profile.png";
 
 const HeroSection = () => {
   return (
