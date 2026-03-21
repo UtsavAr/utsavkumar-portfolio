@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import profileImg from "@/assets/profile.png";
 
 const HeroSection = () => {
   return (
@@ -14,6 +15,11 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
+          <div className="mb-6 flex justify-center">
+            <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-2 border-primary/50 glow">
+              <img src={profileImg} alt="Profile photo" className="w-full h-full object-cover" />
+            </div>
+          </div>
           <p className="font-mono text-primary text-sm mb-4 tracking-wider">
             {"// Hello, World! I'm"}
           </p>
