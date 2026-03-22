@@ -40,9 +40,9 @@ const ContactSection = () => {
               Feel free to reach out — I'd love to hear from you!
             </p>
             {[
-              { icon: Mail, text: "your@email.com" },
-              { icon: Phone, text: "+91 98765 43210" },
-              { icon: MapPin, text: "City, India" },
+              { icon: Mail, text: "utsav2942@gmail.com" },
+              { icon: Phone, text: "+91 99349 77709" },
+              { icon: MapPin, text: "India" },
             ].map(({ icon: Icon, text }) => (
               <div key={text} className="flex items-center gap-3 text-muted-foreground">
                 <Icon size={18} className="text-primary" />
