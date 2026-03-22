@@ -5,17 +5,24 @@ import { GraduationCap, Award } from "lucide-react";
 const education = [
   {
     icon: GraduationCap,
-    title: "B.Tech in Computer Science",
-    institution: "Your University Name",
-    period: "2021 – 2025",
-    detail: "CGPA: 8.5 / 10",
+    title: "B.Tech in Computer Science & Engineering",
+    institution: "Lovely Professional University, Jalandhar (Punjab)",
+    period: "2023 – 2027",
+    detail: "CGPA: 6.36 / 10",
   },
   {
     icon: GraduationCap,
-    title: "Higher Secondary (XII)",
-    institution: "Your School Name",
-    period: "2019 – 2021",
-    detail: "Percentage: 92%",
+    title: "Higher Secondary (XII) — CBSE",
+    institution: "Bijendra Public School, Purnia (Bihar)",
+    period: "2021 – 2022",
+    detail: "Percentage: 67.2%",
+  },
+  {
+    icon: GraduationCap,
+    title: "Secondary (X) — CBSE",
+    institution: "Bijendra Public School, Purnia (Bihar)",
+    period: "2019 – 2020",
+    detail: "Percentage: 73.8%",
   },
 ];
 
