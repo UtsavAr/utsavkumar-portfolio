@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Code2, Rocket, Users } from "lucide-react";
+import { Code2, Award } from "lucide-react";
 
 const highlights = [
-  { icon: Code2, title: "10+ Projects", desc: "Built with modern tech stacks" },
-  { icon: Rocket, title: "Fast Learner", desc: "Adapts to new technologies quickly" },
-  { icon: Users, title: "Team Player", desc: "Strong collaboration & communication" },
+  { icon: Code2, title: "5+ Projects", desc: "Built with modern web technologies" },
+  { icon: Award, title: "Deep Learning – IIT Ropar", desc: "Certified in Oct 2025" },
+  { icon: Award, title: "Web Dev with AI – Internshala", desc: "Certified in Jul 2025" },
 ];
 
 const AboutSection = () => {
