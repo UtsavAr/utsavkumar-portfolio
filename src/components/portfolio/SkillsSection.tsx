@@ -50,7 +50,7 @@ const SkillsSection = () => {
               <h3 className="font-mono text-primary text-sm font-semibold mb-5">
                 {cat.title}
               </h3>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-3">
                 {cat.skills.map((skill) => (
                   <span
                     key={skill}
