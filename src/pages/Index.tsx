@@ -18,6 +18,7 @@ const Index = () => {
       <SkillsSection />
       <ProjectsSection />
       <EducationSection />
+      <TrainingSection />
       <CertificationsSection />
       <ContactSection />
       <Footer />
