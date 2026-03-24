@@ -48,7 +48,7 @@ const EducationSection = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: i * 0.15, duration: 0.5 }}
-              className="glass-card p-6 hover:glow-border transition-all"
+              className="glass-card p-8 hover:glow-border transition-all"
             >
               <div className="flex items-start gap-4">
                 <div className="p-2 rounded-lg bg-primary/10 text-primary mt-1">

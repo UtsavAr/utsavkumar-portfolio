@@ -33,7 +33,7 @@ const TrainingSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.15, duration: 0.5 }}
-          className="glass-card p-8 hover:glow-border transition-all max-w-3xl"
+          className="glass-card p-10 hover:glow-border transition-all max-w-4xl"
         >
           <div className="flex items-start gap-4 mb-6">
             <div className="p-3 rounded-lg bg-primary/10 text-primary mt-1">

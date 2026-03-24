@@ -31,7 +31,7 @@ const AchievementsSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.15, duration: 0.5 }}
-          className="glass-card p-8 hover:glow-border transition-all max-w-2xl"
+          className="glass-card p-10 hover:glow-border transition-all max-w-3xl"
         >
           <div className="flex items-center gap-2 mb-6">
             <Award size={22} className="text-primary" />
