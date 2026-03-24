@@ -67,7 +67,7 @@ const ProjectsSection = () => {
                   </a>
                 </div>
               </div>
-              <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
+              <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
                 {project.description}
               </p>
               <div className="flex flex-wrap gap-2">

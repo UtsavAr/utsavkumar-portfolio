@@ -54,7 +54,7 @@ const AboutSection = () => {
             {highlights.map(({ icon: Icon, title, desc }, i) => (
               <div
                 key={title}
-                className="glass-card p-4 flex items-center gap-4 hover:glow-border transition-all"
+                className="glass-card p-6 flex items-center gap-5 hover:glow-border transition-all"
               >
                 <div className="p-2 rounded-lg bg-primary/10 text-primary">
                   <Icon size={20} />
