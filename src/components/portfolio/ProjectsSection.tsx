@@ -48,7 +48,7 @@ const ProjectsSection = () => {
               transition={{ delay: i * 0.1, duration: 0.5 }}
               className="glass-card p-8 group hover:glow-border transition-all"
             >
-              <div className="flex items-start justify-between mb-3">
+              <div className="flex items-start justify-between mb-4">
                 <h3 className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors">
                   {project.title}
                 </h3>
